@@ -1,0 +1,126 @@
+/* header head part style */
+.forheader{
+width: 25%;
+font-weight: 900;
+color: darkturquoise;
+}
+
+/* header paragraph part style */
+
+.world-cup-para{
+    width: 40%;
+    color: hotpink;
+}
+
+/* Header button style */
+
+.worldcup-header .only-text .world-cup-but a{
+    text-decoration: none;
+    background-color: crimson;
+    padding: 10px 30px;
+    border-radius: 5px;
+    
+}
+ 
+/* header poster image  */
+
+.onlyfirst img{
+    background-color: black;
+}
+
+/* Total header style */
+
+.worldcup-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+background-color: black;
+border: 5px solid black;
+border-radius: 5px ;
+}
+
+/* Header text portion */
+.only-text{
+    margin-left: 10%;
+    text-overflow: calc(100%-200px);
+    float: left;
+    height: 500px;
+    
+}
+
+/* <!-- Main part of link portion --> */
+
+/* Blogs portions style */
+hr{
+    border: 40px solid white;
+}
+.blogall1 button {
+    text-decoration: none;
+    padding: 30px 30px;
+    background-color: turquoise;
+    border-radius:40px 40px;
+    
+}
+
+.blogall2 button {
+    text-decoration: none;
+    padding: 30px 30px;
+    background-color:  turquoise;
+    border-radius:40px 40px;
+    
+}
+ 
+
+.blogall3 button {
+    text-decoration: none;
+    padding: 30px 30px;
+    background-color:  orange;
+    border-radius:40px 40px;
+    
+}
+a{
+    text-decoration: none;
+}
+ 
+/* All blogs syles */
+.blogsite{
+    height: 350px;
+    width: 250px;
+    background-color: black;
+    display: grid;
+    align-items: center;
+}
+ 
+/* All match News are in here man */
+/* Transfer items */
+.timing{
+    display: flex;
+    align-items: center;
+    
+}
+.transfers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* footer all type */
+
+.back{
+    width: 1600px;
+    height: 430px;
+    background-color: darkcyan;
+
+}
+.some{
+ text-align: center;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    
+}
