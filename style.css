@@ -110,10 +110,11 @@ a{
 
 /* footer all type */
 
-.back{
+.back {
     width: 1600px;
     height: 430px;
     background-color: darkcyan;
+    
 
 }
 .some{
@@ -122,5 +123,24 @@ a{
 .last{
     display: flex;
     justify-content: center;
+    
+}
+
+/* Flag based design */
+.flag{
+    display: flex;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);}
+
+    --/* Media quary for mobile */--
+
+@media screen and(max-width:688px) {
+    .last{
+        grid-template-columns: repeat(1,1fr);
+         
+    }
     
 }
