@@ -136,14 +136,16 @@ a{
     grid-template-columns: repeat(2,1fr);}
 
     --/* Media quary for mobile */--
-
-   @media (max-width:688px) {    
-    h1{
-    background-color:red ;
-   }
+.back{
+    @media screen (max-width: 688px) {
+        background-color: red;
+        
+    }
+}
+   
          
     
-}
+
 
 body{
     font-family: 'Ibarra Real Nova', serif;
